@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        .container { padding: 20px; }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            color: #fff;
+            background-color: #007bff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Recuperação de Senha</h2>
+        <p>Olá {{ user.first_name }},</p>
+        <p>Você solicitou a recuperação de senha. Clique no botão abaixo para redefinir sua senha.</p>
+        <a class="button" href="{{ reset_url }}">Redefinir Senha</a>
+    </div>
+</body>
+</html>

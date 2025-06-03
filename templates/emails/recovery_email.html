@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Recuperação de Senha</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        .email-container {
+            max-width: 600px;
+            margin: 20px auto;
+            background-color: #ffffff;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .header {
+            background-color: #007bff;
+            color: #ffffff;
+            text-align: center;
+            padding: 20px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .body {
+            padding: 20px;
+            text-align: center;
+            color: #333333;
+        }
+
+        .body p {
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+
+        .otp-code {
+            display: inline-block;
+            background-color: #007bff;
+            color: #ffffff;
+            font-size: 24px;
+            font-weight: bold;
+            padding: 10px 20px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+
+        .footer {
+            background-color: #f4f4f4;
+            text-align: center;
+            padding: 15px;
+            font-size: 14px;
+            color: #666666;
+        }
+
+        .footer a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        @media (max-width: 600px) {
+            .email-container {
+                width: 100%;
+                border-radius: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="email-container">
+        <div class="header">
+            Recuperação de Senha
+        </div>
+        <div class="body">
+            <p>Olá <strong>{{ user.first_name }}</strong>,</p>
+            <p>Você solicitou a recuperação da sua senha. Use o código abaixo para continuar:</p>
+            <div class="otp-code">{{ otp_code }}</div>
+            <p>Se você não solicitou essa recuperação, ignore este e-mail.</p>
+        </div>
+        <div class="footer">
+            &copy; 2025 WebManager - Todos os direitos reservados.<br>
+            <a href="https://pdinfinita.dev">Acesse nosso site</a>
+        </div>
+    </div>
+</body>
+</html>

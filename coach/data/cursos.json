@@ -1,0 +1,46 @@
+[
+    {
+        "course_id": "course-v1:Projeto_Desenvolve+PY001+2024_S2",
+        "course_name": "Python 1"
+    },
+    {
+        "course_id": "course-v1:ProjetoDesenvolve+Scratch1+01",
+        "course_name": "Scratch 1"
+    },
+    {
+        "course_id": "course-v1:ProjetoDesenvolve+NoCode1+01",
+        "course_name": "No Code 1"
+    },
+    {
+        "course_id": "course-v1:ProjetoDesenvolve+Linux1+01",
+        "course_name": "Linux 1"
+    },
+    {
+        "course_id": "course-v1:ProjetoDesenvolve+IntroWeb+01",
+        "course_name": "Introdução à Web"
+    },
+    {
+        "course_id": "course-v1:ProjetoDesenvolve+POO1+01",
+        "course_name": "Programação Orientada a Objetos (POO) 1"
+    },
+    {
+        "course_id": "course-v1:ProjetoDesenvolve+JS1+01",
+        "course_name": "JavaScript 1"
+    },
+    {
+        "course_id": "course-v1:ProjetoDesenvolve+BD1+01",
+        "course_name": "Banco de Dados 1"
+    },
+    {
+        "course_id": "course-v1:ProjetoDesenvolve+Python2+2024",
+        "course_name": "Python 2"
+    },
+    {
+        "course_id": "course-v1:ProjetoDesenvolve+Projeto1+01",
+        "course_name": "Projeto 1"
+    },
+    {
+        "course_id": "course-v1:ProjetoDesenvolve+Projeto2+01",
+        "course_name": "Projeto 2"
+    }
+]
